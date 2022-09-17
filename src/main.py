@@ -7,7 +7,7 @@ app = FastAPI(title="The Sam API reporting",
         "The various APIs will be used to trigger data extractions from various services. "
     ),
     # root_path=settings.ROOT_PATH,
-    root_path="/src/",
+    root_path="/",
 )
 
 @app.get("/")
